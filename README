@@ -1,0 +1,7 @@
+Name: Vu Nguyen (Dinh Nguyen)
+
+Intercept-System-Call.c will modify the print() system call by changing the output to uppercase 
+
+sandbox.c will block unauthorized open() system call for writing in current location. 
+open() syscall will only works for read/write in /tmp/ directory.
+If open() for read only, all directories are fine. 
